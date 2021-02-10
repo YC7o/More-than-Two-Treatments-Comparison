@@ -1,0 +1,38 @@
+R version 4.0.3 (2020-10-10)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19041)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Spanish_Mexico.1252 
+[2] LC_CTYPE=Spanish_Mexico.1252   
+[3] LC_MONETARY=Spanish_Mexico.1252
+[4] LC_NUMERIC=C                   
+[5] LC_TIME=Spanish_Mexico.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets 
+[6] methods   base     
+
+other attached packages:
+[1] agricolae_1.3-3 purrr_0.3.4     dplyr_1.0.2    
+[4] ggplot2_3.3.2  
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.5       highr_0.8        pillar_1.4.7    
+ [4] compiler_4.0.3   questionr_0.7.4  later_1.1.0.1   
+ [7] forcats_0.5.0    tools_4.0.3      digest_0.6.27   
+[10] lattice_0.20-41  nlme_3.1-149     lifecycle_0.2.0 
+[13] tibble_3.0.4     gtable_0.3.0     pkgconfig_2.0.3 
+[16] rlang_0.4.7      shiny_1.5.0      rstudioapi_0.13 
+[19] haven_2.3.1      fastmap_1.0.1    cluster_2.1.0   
+[22] withr_2.3.0      hms_0.5.3        generics_0.1.0  
+[25] vctrs_0.3.6      combinat_0.0-8   grid_4.0.3      
+[28] tidyselect_1.1.0 glue_1.4.2       R6_2.5.0        
+[31] klaR_0.6-15      farver_2.0.3     magrittr_2.0.1  
+[34] scales_1.1.1     promises_1.1.1   ellipsis_0.3.1  
+[37] htmltools_0.5.0  MASS_7.3-53      labelled_2.7.0  
+[40] mime_0.9         colorspace_2.0-0 xtable_1.8-4    
+[43] httpuv_1.5.4     labeling_0.4.2   miniUI_0.1.1.1  
+[46] munsell_0.5.0    AlgDesign_1.2.0  crayon_1.3.4    
