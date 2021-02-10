@@ -1,8 +1,8 @@
 R in the Lab: More than Two Treatments Comparison
 ================
 
-A brief R tutorial about how to perform a analysis to compare
-four treatments data. This is achieved by fitting a analysis of Variance model, summarizing and making some nice graphs for the data.
+A brief R tutorial about how to perform a data analysis to compare
+four treatments data. This is achieved by fitting a analysis of variance model, summarizing and making some nice graphs for the data.
 
 Note that I didn’t explain how I simulated the experimental data, but
 you can see the code on data\_simulation.R
