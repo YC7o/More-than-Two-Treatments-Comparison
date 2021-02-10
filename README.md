@@ -11,7 +11,7 @@ If you have cloned this repository and want to run this analysis from
 scratch first run erase\_all\_outputs.R script and then run Main.R
 script o whichever script you want.
 
-The image folder contains images that I’ve used on the presentation.
+The image folder contains images that I’ve used on the presentation: <a href="https://github.com/jpch26/More-than-Two-Treatments-Comparison/blob/main/More%20than%20Two%20Treatments%20Comparison.md" target="_blank">More than Two Treatments Comparison</a>.
 
 Juan Pablo Carreón Hidalgo
 
