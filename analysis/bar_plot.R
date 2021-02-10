@@ -21,7 +21,7 @@ sum_data <- merge(sum_data, groups, by = "SL")
 bar_plot <- ggplot(sum_data, aes(x = SL, y = MEAN, label = groups)) +
   geom_col(width = 0.5, color = "black", fill = "royalblue1") +
   geom_errorbar(aes(ymin = MEAN - SD, ymax = MEAN + SD), width = 0.1) +
-  geom_text(nudge_y = 5) +
+  geom_text(nudge_y = 5, size = 5) +
   xlab("Light source type") +
   ylab("Chlorophyll (mg/g)")
 

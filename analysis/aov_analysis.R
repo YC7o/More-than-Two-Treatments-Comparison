@@ -11,12 +11,9 @@ data_aov <- aov(CLQ ~ SL, data = main_data)
 
 # 2.2 ANOVA table 
 anova_table <- anova(data_aov)
-anova_table <- as.data.frame(anova_table)
 
 # 3 Save results ----------------------------------------------------------
 write.csv(
-  anova_table, 
-  file = "data/ANOVA_table.csv", 
-  row.names = FALSE, 
-  na = ""
+  anova_table, file = "data/ANOVA_table.csv", 
+  row.names = FALSE, na = ""
   )

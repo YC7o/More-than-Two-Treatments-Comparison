@@ -25,7 +25,8 @@ point_plot <- ggplot(main_data, aes(x = SL, y = CLQ)) +
   geom_point() +
   stat_summary(fun = mean, geom = "crossbar", width = 0.2, col = "blue") +
   geom_text(data = groups, 
-            aes(x = SL, y = MEAN, label = groups), nudge_x = 0.2) + 
+            aes(x = SL, y = MEAN, label = groups), nudge_x = 0.2, 
+            size = 5) + 
   xlab("Light source type") +
   ylab("Chlorophyll (mg/g)")
 

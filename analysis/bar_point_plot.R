@@ -30,7 +30,7 @@ bar_point_plot <- ggplot(sum_data, aes(x = SL, y = MEAN)) +
     aes(ymin = MEAN - SD, ymax = MEAN + SD),  width = 0.1
     ) +
   geom_text(
-    aes(label = groups), nudge_y = 6.5
+    aes(label = groups), nudge_y = 6.5, size = 5
     ) +
   geom_point(
     data = main_data, aes(x = SL, y = CLQ), color = "red", size = 1.5
