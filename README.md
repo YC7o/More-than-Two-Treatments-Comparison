@@ -11,7 +11,7 @@ If you have cloned this repository and want to run this analysis from
 scratch first run erase\_all\_outputs.R script and then run Main.R
 script o whichever script you want.
 
-You can read the presentation for this folder by clicking on: <a href="https://github.com/jpch26/More-than-Two-Treatments-Comparison/blob/main/More%20than%20Two%20Treatments%20Comparison.md" target="_blank">More than Two Treatments Comparison</a>.
+You can read the presentation for this folder by clicking on: <a href="https://r-in-the-lab.netlify.app/1/01/01/more-than-two-treatments-comparison/" target="_blank">More than Two Treatments Comparison</a>.
 
 Juan Pablo Carreón Hidalgo
 
