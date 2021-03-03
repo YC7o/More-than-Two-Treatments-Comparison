@@ -7,7 +7,7 @@
 session_file <- c("Session_Info.txt")
 
 # Data outputs file names from analysis scripts
-analysis_outputs <- list.files("data")
+analysis_outputs <- list.files("data")[-9:-10]
 
 # Graph outputs file names from analysis scripts
 graph_outputs <- list.files("graphs")

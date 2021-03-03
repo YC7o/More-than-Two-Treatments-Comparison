@@ -4,25 +4,22 @@
 # Ctrl+Shift+F10 if you are using RStudio
 
 # Packages
-library(ggplot2) # To make graphs
-library(dplyr) # To make some data transformations
+library(tidyverse) # Plot, tidy and reformat data 
 
-# 1 Simulating the data
+# 1 Paper data processing
+source("analysis/paper_data_processing.R")
+
+# 2 Data simulation
 source("analysis/data_simulation.R")
 
-# 2 AOV analysis
-source("analysis/aov_analysis.R")
+# 3 PCA analysis
+source("analysis/pca_analysis.R")
 
-# 3 HSD test
-source("analysis/hsd_test.R")
+# 4 PCA plots
+source("analysis/pca_plots.R")
 
-# 4 Summary data 
-source("analysis/sum_data.R")
+# 5 Metabolites line plots
+source("analysis/met_plots.R")
 
-# 5 Plots
-source("analysis/bar_plot.R")
-source("analysis/point_plot.R")
-source("analysis/bar_point_plot.R")
-
-# 5 Session info
+# 6 Session info
 capture.output(sessionInfo(), file = "Session_Info.txt")
