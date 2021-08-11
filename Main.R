@@ -6,20 +6,22 @@
 # Packages
 library(tidyverse) # Plot, tidy and reformat data 
 
-# 1 Paper data processing
-source("analysis/paper_data_processing.R")
-
-# 2 Data simulation
+# 1 Data simulation
 source("analysis/data_simulation.R")
 
-# 3 PCA analysis
-source("analysis/pca_analysis.R")
+# 2 Data summary
+source("analysis/sum_data.R")
 
-# 4 PCA plots
-source("analysis/pca_plots.R")
+# 3 ANOVA analysis
+source("analysis/aov_analysis.R")
 
-# 5 Metabolites line plots
-source("analysis/met_plots.R")
+# 4 Tukey HSD test 
+source("analysis/hsd_test.R")
+
+# 5 Plots
+source("analysis/bar_plot.R")
+source("analysis/scatter_plot.R")
+source("analysis/bar_scatter_plot.R")
 
 # 6 Session info
 capture.output(sessionInfo(), file = "Session_Info.txt")

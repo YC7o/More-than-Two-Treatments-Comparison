@@ -1,5 +1,5 @@
 
-# Point plot  -------------------------------------------------------------
+# Scatter plot  -------------------------------------------------------------
 
 if (!"ggplot2" %in% .packages()) library(ggplot2)
 
@@ -21,7 +21,7 @@ groups <- read.csv("data/hsd_groups.csv")
 groups <- merge(groups, sum_data, by = "SL")
 
 # 2 Point plot  -------------------------------------------------------------
-point_plot <- ggplot(main_data, aes(x = SL, y = CLQ)) +
+scatter_plot <- ggplot(main_data, aes(x = SL, y = CLQ)) +
   geom_point() +
   stat_summary(fun = mean, geom = "crossbar", width = 0.2, col = "blue") +
   geom_text(data = groups, 
@@ -32,4 +32,4 @@ point_plot <- ggplot(main_data, aes(x = SL, y = CLQ)) +
 
 
 # 3 Save plot -------------------------------------------------------------
-ggsave(filename = "graphs/point_plot.jpeg", point_plot)
+ggsave(filename = "graphs/scatter_plot.jpeg", scatter_plot)

@@ -22,7 +22,7 @@ sum_data <- merge(groups, sum_data, by = "SL")
 
 
 # 2 Bar point plot --------------------------------------------------------
-bar_point_plot <- ggplot(sum_data, aes(x = SL, y = MEAN)) +
+bar_scatter_plot <- ggplot(sum_data, aes(x = SL, y = MEAN)) +
   geom_col(
     width = 0.5, color = "black", fill = "royalblue1"
     ) +
@@ -39,4 +39,4 @@ bar_point_plot <- ggplot(sum_data, aes(x = SL, y = MEAN)) +
   ylab("Chlorophyll (mg/g)")
 
 # 3 Save plot ---------------------------------------------------------------
-ggsave(filename = "graphs/bar_point_plot.jpeg", bar_point_plot)
+ggsave(filename = "graphs/bar_scatter_plot.jpeg", bar_scatter_plot)
